@@ -1,0 +1,127 @@
+{
+    "name": "WhatsAlexa v2",
+    "description": "WhatsAlexa is a Helper WhatsApp Bot Written By @TOXIC-DEVIL with Modifiying as public @MrChaby. Alexa has a lot of Features/Commans Including Voice Chat [ AI ].",
+    "logo": "https://i.ibb.co/KGMms2Z/Whats-Alexa.jpg",
+    "keywords": ["whatsapp", "Voice", "Alexa", "WhatsAlexa", "bot", "api", "ai"],
+    "repository": "https://github.com/MrChaby/WhatsAlexa",
+    "website":   "https://github.com/MrChaby",
+    "success_url": "https://github.com/MrChaby",
+    "stack": "container",
+    "env": {
+        "SESSION": {
+            "description": "Enter the copied SESSION here ( Copied code starting with Alexa===eyJj & ending with 9In0= ).",
+            "required": true
+        },
+        "SUDO": {
+            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 9199xxxxxxxx ( This is an Example of Indian number +91 )",
+            "required": false
+        },
+        "LANGUAGE": {
+            "description": "Bot languages. Malayalam => ML, Indonesia => ID, English => EN ( Enter any one only )",
+            "required": true,
+            "value": "EN"
+        },
+        "BOT_STATUS": {
+            "description": "Type the status of bot, statuses: online => Always Shows the online, offline => Always Shows offline, typing => Always Shows typing, recording => Always Shows recording.. NOTE : THE STATUS WILL BE PERMANENT, UNTIL THE BOT IS ALIVE / RUNNING / WORKING",
+            "required": false,
+            "value": "offline"
+        },
+        "WORK_TYPE": {
+            "description": "WhatsAlexa Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "required": true,
+            "value": "public"
+        },
+        "FULL_ALEXA": {
+            "description": "Turn your account into a chatbot! Replys To The Private chat messages by the Alexa Chatbot.",
+            "required": true,
+            "value": "false"
+        },
+        "HANDLERS": {
+            "description": "Symbol used infront of a command ( Prefix ). NOTE : ONLY SYMBOL CAN BE USED, DON'T ENTER ANY OTHER LATIN WORDS / ALPHABETS, IF IT HAPPENS BOT WILL NOT WORK.",
+            "required": true,
+            "value": "^[#]"
+        },
+        "NO_LOG": {
+            "description": "Set true if you don't want to see error log.",
+            "required": true,
+            "value": "false"
+        },
+        "SEND_READ": {
+            "description": "The bot reads the incoming messages ( only commands sent by others so privacy is not breaking there ).",
+            "required": true,
+            "value": "false"
+        },
+        "HEROKU": {
+            "description": "Type 'true' Iff the bot is running in  Heroku Else type 'false'.",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "Enter your heroku api key [ You can get it from here : https://dashboard.heroku.com/account Scroll down to end, click reveal button & Copy the API KEY ].",
+            "required": true
+        },
+        "MUTE_MESSAGE": {
+            "description": "Customizable Mute Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "UNMUTE_MESSAGE": {
+            "description": "Customizable Unmute Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Re-Enter the heroku app name. [ Same name which you have entered on 'app-name' ( above )].",
+            "required": true
+        },
+        "DEBUG": {
+            "description": "Special For Developers, Leave it.",
+            "required": true,
+            "value": "false"
+        },
+        "ALIVE_MESSAGE": {
+            "description": "Customizable Alive Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "BAN_MESSAGE": {
+            "description": "Customizable Ban Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "KICKME_MESSAGE": {
+            "description": "Customizable Kickme Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "PROMOTE_MESSAGE": {
+            "description": "Customizable Promote Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "DEMOTE_MESSAGE": {
+            "description": "Customizable Demote Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "AFK_MESSAGE": {
+            "description": "Customizable AFK Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "CK": {
+            "description": "Caption text.",
+            "required": false
+        },
+        "RBG_API": {
+            "description": "Removes the background of the photos. Get Api https://remove.bg",
+            "required": false
+        }
+    },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
