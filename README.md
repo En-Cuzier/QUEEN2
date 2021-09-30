@@ -26,9 +26,11 @@
 
   ### ⦁►Simple Method◄⦁
   
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://repl.it/@phaticusthiccy/WhatsAsena-QR)
+              
+ [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@SlChaBy/WhatsAlexa-BaileysApi)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/En-Cuzier/QUEEN-ALEXA)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/En-Cuzier/QUEEN2)
      </div>
 
 
