@@ -1,11 +1,11 @@
 {
-    "name": "WhatsAlexa v2",
-    "description": "WhatsAlexa is a Helper WhatsApp Bot Written By @TOXIC-DEVIL with Modifiying as public @MrChaby. Alexa has a lot of Features/Commans Including Voice Chat [ AI ].",
+    "name": "⦁═Queen 👸 Alexa═⦁",
+    "description": "⦁═Queen 👸 Alexa═⦁ is a Helper WhatsApp Bot Written By @TOXIC-DEVIL with Modifiying as public @MrChaby. Alexa has a lot of Features/Commans Including Voice Chat [ AI ].",
     "logo": "https://i.ibb.co/KGMms2Z/Whats-Alexa.jpg",
     "keywords": ["whatsapp", "Voice", "Alexa", "WhatsAlexa", "bot", "api", "ai"],
-    "repository": "https://github.com/MrChaby/WhatsAlexa",
-    "website":   "https://github.com/MrChaby",
-    "success_url": "https://github.com/MrChaby",
+    "repository": "https://github.com/En-Cuzier/QUEEN2",
+    "website":   "https://github.com/En-Cuzier",
+    "success_url": "https://github.com/En-Cuzier",
     "stack": "container",
     "env": {
         "SESSION": {
